@@ -37,9 +37,6 @@ public class HelloWorld extends HttpServlet {
 
 	out.append(" " + java.time.LocalDateTime.now());
 	out.append("   입니다.  그렇지요 </h2></body></html>");
-	
-	
-	
 }
 
 	/**
