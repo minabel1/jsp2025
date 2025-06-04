@@ -15,7 +15,8 @@ public class ProductController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	
-	ProductService service;
+	ProductService service;insert into test values(102, "텐서플로", "ai출판사",20000);
+select * from test;
 	
     /**
      * @see HttpServlet#HttpServlet()
