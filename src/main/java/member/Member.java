@@ -2,7 +2,7 @@ package member;
 
 import java.sql.Date;
 
-public class Member extends object{
+public class Member{
 	int id;
 	String username;
 	String company;
@@ -38,5 +38,6 @@ public class Member extends object{
 	public void setEmail(String email) {
 		this.email = email;
 	}
+}
 	
 	

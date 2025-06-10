@@ -1,6 +1,5 @@
 package Producteg;
 
-
 public class Product {
 	private String id;
 	private String name;
@@ -8,7 +7,7 @@ public class Product {
 	private int price;
 	private String date;
 	
-	Product(String id, String name, String maker, int price, String date){
+	public Product(String id, String name, String maker, int price, String date) {
 		this.id = id;
 		this.name = name;
 		this.maker = maker;
@@ -20,7 +19,7 @@ public class Product {
 		return id;
 	}
 	
-	public String setId(String Id) {
+	public void setId(String id) { // 수정: 파라미터 이름을 소문자로 통일
 		this.id = id;
 	}
 
@@ -55,5 +54,4 @@ public class Product {
 	public void setDate(String date) {
 		this.date = date;
 	}
-	
 }

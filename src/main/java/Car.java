@@ -2,14 +2,16 @@
 
 public class Car {
 	
-	public class CC
-	
-		final public left() { 
+	public abstract class CC{
+		
+		final public void left() { 
 	
 		}
 	
-		abstract public void right() {
+		abstract public void right();
 		
+		public void middle() {
+			
 		}
 	}
 
@@ -18,12 +20,16 @@ public class Car {
 		public void right() {
 			
 		}
-		public void left() {
+//		public void left() {
+//			
+//		}
 		
-	}
+		public void middle() {
+			super.middle();
+		}
+		
 		
 	
 	Bike mini = new Bike();
-	mini.left();
-	
+	}
 }
