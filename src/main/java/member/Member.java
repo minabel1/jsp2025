@@ -3,11 +3,15 @@ package member;
 import java.sql.Date;
 
 public class Member{
-	int id;
-	String username;
-	String company;
-	Date birthday;
-	String email;
+	
+	private int id;
+	private String username;
+	private String company;
+	private Date birthday;
+	private String email;
+	
+	
+	
 	public int getId() {
 		return id;
 	}
@@ -38,6 +42,6 @@ public class Member{
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
+
 }
-	
-	
